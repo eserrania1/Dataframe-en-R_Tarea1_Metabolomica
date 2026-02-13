@@ -1,0 +1,11 @@
+#Ejercicio de portafolio de metabolómica 1: Dataframe en R
+#Edith Serranía Reinada 00483937
+#Metabolómica, grupo 2
+#Tarea 1
+Pelicula<-c("Anora", "The Brutalist", "Flow", "Emilia Pérez", "Wicked", "Dune: Part Two", "I’m Still Here")
+Premios_Oscar_2025<-c("Mejor Película, Mejor Director, Mejor Actriz, Mejor Guion Original, Mejor Montaje", "Mejor Actor, Mejor Fotografía, Mejor Banda Sonora", "Mejor Película de Animación", "Mejor Actriz de Reparto, Mejor Canción Original", "Mejor Diseño de Vestuario, Diseño de Producción", "Mejor Sonido, Mejores Efectos Visuales", "Mejor Película Internacional")
+Mes_de_estreno<-c("Enero", "Diciembre", "Diciembre", "Mayo", "Noviembre", "Marzo", "Febrero")
+Recaudacion_mundial_estimada<-c("41000000", "41400000", "728000000", "714000000", "20000000", "29900000", "30000000")
+Mejores_películas_de_2025<-data.frame(Película, Premios_Oscar_2025, Mes_de_estreno, Recaudacion_mundial_estimada)
+Mejores_películas_de_2025
+View(Mejores_películas_de_2025)
